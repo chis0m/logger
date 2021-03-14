@@ -1,0 +1,5 @@
+Files
+1. frontend will add servers 
+2. each server added, frontend will send server details and path to .env is option
+a. backend will respond with all the .env files in that server with their path
+b. if however path was specified, will respond with only the .env specifie

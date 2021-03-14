@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "edit .env and log files, execute ssh commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chis0m/logger.git"
+  },
+  "author": "chisom ejim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chis0m/logger/issues"
+  },
+  "homepage": "https://github.com/chis0m/logger#readme"
+}
