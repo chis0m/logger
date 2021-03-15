@@ -4,7 +4,8 @@
   "description": "edit .env and log files, execute ssh commands",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' --files src/index.ts",
+    "build": "rm -rf build && tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/chis0m/logger/issues"
   },
-  "homepage": "https://github.com/chis0m/logger#readme"
+  "homepage": "https://github.com/chis0m/logger#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "5.3.1",
+    "typescript": "^4.2.3",
+    "typescript-rest": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "ts-node": "^9.1.1"
+  }
 }
